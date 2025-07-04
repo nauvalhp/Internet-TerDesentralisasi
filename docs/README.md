@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /Internet-TerDesentralisasi/images.png
+heroImage: images.png
 actions:
   - text: Mulai
     link: /guide/
