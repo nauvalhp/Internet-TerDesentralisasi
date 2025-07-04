@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default';
 import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
-  base: '/',
+  base: '/Internet-TerDesentralisasi/',
   title: 'S.I.T',
   description: 'Sejarah Internet Terdesentralisasi.',
 
