@@ -1,0 +1,114 @@
+<template><div><h1 id="proyek-awal-terdesentralisasi" tabindex="-1"><a class="header-anchor" href="#proyek-awal-terdesentralisasi"><span>Proyek Awal Terdesentralisasi</span></a></h1>
+<p>Sebelum istilah &quot;Web3&quot; dan &quot;blockchain&quot; mendominasi wacana, berbagai proyek perintis telah mencoba mewujudkan visi internet yang terbuka, bebas, dan tanpa pusat. Mereka lahir dari kebutuhan untuk menghindari sensor, efisiensi distribusi, serta perlindungan identitas digital.</p>
+<p>Berikut beberapa proyek kunci yang membentuk fondasi awal dari ekosistem internet terdesentralisasi.</p>
+<hr>
+<h2 id="📰-1-usenet-1979" tabindex="-1"><a class="header-anchor" href="#📰-1-usenet-1979"><span>📰 1. Usenet (1979)</span></a></h2>
+<p><strong>Usenet</strong> adalah salah satu sistem komunikasi daring tertua yang mengadopsi prinsip desentralisasi. Ia dikembangkan oleh dua mahasiswa, Tom Truscott dan Jim Ellis, dan menggunakan protokol <code v-pre>UUCP</code> (Unix-to-Unix Copy Protocol) untuk mentransfer pesan antar server.</p>
+<h3 id="ciri-desentralisasinya" tabindex="-1"><a class="header-anchor" href="#ciri-desentralisasinya"><span>Ciri Desentralisasinya:</span></a></h3>
+<ul>
+<li>Tidak ada server pusat—setiap node menyimpan salinan sendiri dari topik diskusi (<em>newsgroups</em>).</li>
+<li>Model distribusi <em>store-and-forward</em> memungkinkan replikasi pesan secara otomatis ke node lain.</li>
+<li>Bersifat terbuka dan dapat diakses siapa saja yang memiliki koneksi ke jaringan Usenet.</li>
+</ul>
+<blockquote>
+<p>Usenet adalah bukti awal bahwa komunitas digital bisa hidup tanpa pengawasan pusat—dengan kekuatan distribusi informasi horizontal.</p>
+</blockquote>
+<hr>
+<h2 id="🧠-2-freenet-1999" tabindex="-1"><a class="header-anchor" href="#🧠-2-freenet-1999"><span>🧠 2. Freenet (1999)</span></a></h2>
+<p>Dikembangkan oleh Ian Clarke, <strong>Freenet</strong> adalah jaringan penyimpanan dan komunikasi anonim yang dirancang untuk menghindari sensor.</p>
+<h3 id="ciri-desentralisasinya-1" tabindex="-1"><a class="header-anchor" href="#ciri-desentralisasinya-1"><span>Ciri Desentralisasinya:</span></a></h3>
+<ul>
+<li>Data dienkripsi dan didistribusikan ke banyak node acak.</li>
+<li>Tidak ada server pusat atau sistem penamaan tetap (nama file bersifat <em>content-hash</em>).</li>
+<li>Mengutamakan <strong>anonimitas pengguna</strong> dan <strong>toleransi terhadap sensor</strong>.</li>
+</ul>
+<p>Freenet banyak digunakan oleh aktivis digital dan jurnalis di wilayah represif. Meskipun lambat dan kompleks bagi pengguna awam, Freenet meletakkan fondasi bagi sistem file terdistribusi seperti IPFS.</p>
+<hr>
+<h2 id="📡-3-gnutella-2000" tabindex="-1"><a class="header-anchor" href="#📡-3-gnutella-2000"><span>📡 3. Gnutella (2000)</span></a></h2>
+<p>Gnutella adalah salah satu protokol file sharing peer-to-peer (P2P) pertama yang benar-benar tanpa pusat.</p>
+<h3 id="ciri-desentralisasinya-2" tabindex="-1"><a class="header-anchor" href="#ciri-desentralisasinya-2"><span>Ciri Desentralisasinya:</span></a></h3>
+<ul>
+<li>Tidak menggunakan server indeks seperti Napster.</li>
+<li>Pencarian file dilakukan secara menyebar (flood-based query).</li>
+<li>Setiap klien dapat bertindak sebagai server bagi klien lain.</li>
+</ul>
+<p>Meskipun tidak terlalu efisien secara bandwidth, Gnutella membuktikan bahwa P2P bisa berfungsi tanpa infrastruktur pusat apa pun.</p>
+<hr>
+<h2 id="⬇️-4-bittorrent-2001" tabindex="-1"><a class="header-anchor" href="#⬇️-4-bittorrent-2001"><span>⬇️ 4. BitTorrent (2001)</span></a></h2>
+<p>Diciptakan oleh Bram Cohen, <strong>BitTorrent</strong> mengubah cara distribusi file besar secara efisien dengan membagi beban ke seluruh jaringan.</p>
+<h3 id="ciri-desentralisasinya-3" tabindex="-1"><a class="header-anchor" href="#ciri-desentralisasinya-3"><span>Ciri Desentralisasinya:</span></a></h3>
+<ul>
+<li>File dipecah menjadi potongan kecil dan dibagikan antar pengguna (<em>seeders</em> dan <em>leechers</em>).</li>
+<li>Awalnya tergantung pada <em>tracker server</em>, namun kemudian dikembangkan lebih jauh menggunakan <strong>DHT (Distributed Hash Table)</strong> agar benar-benar terdesentralisasi.</li>
+<li>Protokol BitTorrent kini digunakan untuk distribusi Linux ISO, game update, bahkan video.</li>
+</ul>
+<blockquote>
+<p>BitTorrent membuktikan bahwa desentralisasi bisa mengalahkan efisiensi layanan terpusat—dan menjadi standar distribusi file global.</p>
+</blockquote>
+<hr>
+<h2 id="💡-5-tor-hidden-services-2002" tabindex="-1"><a class="header-anchor" href="#💡-5-tor-hidden-services-2002"><span>💡 5. TOR Hidden Services (2002+)</span></a></h2>
+<p>Meski lebih dikenal sebagai alat privasi, jaringan <strong>TOR</strong> juga memungkinkan pembuatan situs tersembunyi (<em>onion services</em>) yang berjalan tanpa domain DNS konvensional.</p>
+<h3 id="ciri-desentralisasinya-4" tabindex="-1"><a class="header-anchor" href="#ciri-desentralisasinya-4"><span>Ciri Desentralisasinya:</span></a></h3>
+<ul>
+<li>Routing lalu lintas melalui node acak (onion routing).</li>
+<li>Lokasi server tidak dapat dilacak (serverless alias hidden).</li>
+<li>Tanpa keterlibatan otoritas domain publik seperti ICANN.</li>
+</ul>
+<hr>
+<h2 id="🧩-peran-proyek-proyek-ini" tabindex="-1"><a class="header-anchor" href="#🧩-peran-proyek-proyek-ini"><span>🧩 Peran Proyek-Proyek Ini</span></a></h2>
+<p>Masing-masing proyek di atas membawa satu atau lebih elemen dari <em>visi internet terdesentralisasi</em>:</p>
+<table>
+<thead>
+<tr>
+<th>Proyek</th>
+<th>Distribusi Data</th>
+<th>Anonimitas</th>
+<th>Tanpa Server Pusat</th>
+<th>P2P Aktif</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Usenet</td>
+<td>✅</td>
+<td>⚠️ Sebagian</td>
+<td>✅</td>
+<td>⚠️ Manual</td>
+</tr>
+<tr>
+<td>Freenet</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Gnutella</td>
+<td>⚠️ Terbatas</td>
+<td>⚠️</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>BitTorrent</td>
+<td>✅</td>
+<td>⚠️</td>
+<td>✅ (DHT)</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>TOR</td>
+<td>⚠️ (routing)</td>
+<td>✅</td>
+<td>✅</td>
+<td>⚠️</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>Proyek-proyek awal ini adalah bentuk eksperimen digital untuk membuktikan bahwa kebebasan informasi bisa hidup tanpa izin dari siapa pun. Meskipun banyak yang akhirnya dilupakan publik, jejak dan prinsip-prinsipnya hidup dalam teknologi masa kini seperti IPFS, Web3, dan blockchain.</p>
+</blockquote>
+</div></template>
+
+
